@@ -1,6 +1,26 @@
 // app.js – Dynamically populate the tourism gallery and handle UI interactions
 
 document.addEventListener('DOMContentLoaded', async () => {
+  // Theme Toggle Logic
+  const themeToggle = document.getElementById('themeToggle');
+  const currentTheme = localStorage.getItem('theme') || 'dark';
+
+  if (currentTheme === 'light') {
+    document.documentElement.classList.add('light-mode');
+    if (themeToggle) themeToggle.textContent = '🌙';
+  } else {
+    if (themeToggle) themeToggle.textContent = '☀️';
+  }
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('light-mode');
+      const isLight = document.documentElement.classList.contains('light-mode');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      themeToggle.textContent = isLight ? '🌙' : '☀️';
+    });
+  }
+
   // Mobile Navigation Toggle
   const navToggle = document.getElementById('navToggle');
   const navMenu = document.getElementById('navMenu');

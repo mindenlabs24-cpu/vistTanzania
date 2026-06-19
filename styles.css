@@ -50,6 +50,58 @@
   --shadow-glow: 0 0 30px rgba(212, 168, 67, 0.15);
 }
 
+:root.light-mode {
+  --clr-bg-dark: #f8fafc;
+  --clr-bg-section: #ffffff;
+  --clr-bg-card: #ffffff;
+  --clr-bg-card-hover: #f1f5f9;
+  --clr-text: #1e293b;
+  --clr-text-muted: #64748b;
+  --clr-white: #0f172a;
+  --clr-border: #e2e8f0;
+  --clr-glass: rgba(0, 0, 0, 0.05);
+  --clr-glass-border: rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 4px 15px rgba(0, 0, 0, 0.05);
+  --shadow-card-hover: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .hero-title,
+.light-mode .hero-subtitle,
+.light-mode .stats-section .stat-label,
+.light-mode .stats-section .stat-number {
+  color: #ffffff;
+}
+
+.light-mode .nav-link, .light-mode .logo-text {
+  color: #ffffff;
+}
+
+.light-mode .navbar.scrolled .nav-link {
+  color: var(--clr-text-muted);
+}
+.light-mode .navbar.scrolled .nav-link:hover,
+.light-mode .navbar.scrolled .nav-link.active,
+.light-mode .navbar.scrolled .logo-text {
+  color: var(--clr-white);
+}
+
+.light-mode .navbar.scrolled .nav-toggle span {
+  background: var(--clr-white);
+}
+
+.light-mode .dest-card-badge {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--clr-primary-dark);
+}
+
+.light-mode .stats-overlay {
+  background: rgba(12, 17, 23, 0.5);
+}
+
+.light-mode .about, .light-mode .testimonials {
+  background: #f1f5f9;
+}
+
 /* --- Reset & Base --- */
 *,
 *::before,
