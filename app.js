@@ -39,6 +39,37 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
+  // Typewriter effect for Hero Tag
+  const heroTag = document.querySelector('.hero-tag');
+  if (heroTag) {
+    const text = "🌟 Welcome to the Land of Kilimanjaro & Serengeti";
+    let index = 0;
+    let isDeleting = false;
+    
+    function typeWriter() {
+      if (isDeleting) {
+        heroTag.innerHTML = text.substring(0, index) + '<span class="cursor"></span>';
+        index--;
+        if (index < 0) {
+          isDeleting = false;
+          setTimeout(typeWriter, 500);
+        } else {
+          setTimeout(typeWriter, 30);
+        }
+      } else {
+        heroTag.innerHTML = text.substring(0, index) + '<span class="cursor"></span>';
+        index++;
+        if (index > text.length) {
+          isDeleting = true;
+          setTimeout(typeWriter, 2000); // pause at end
+        } else {
+          setTimeout(typeWriter, 80);
+        }
+      }
+    }
+    typeWriter();
+  }
+
   // Sticky Navbar
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => {
