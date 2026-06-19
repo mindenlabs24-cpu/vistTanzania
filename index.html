@@ -3,34 +3,286 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VIST TANZANIA - Explore Tanzania</title>
-  <meta name="description" content="Discover Tanzania's mountains, wildlife, waterfalls, valleys, rivers, and historical sites. Plan your adventure today!" />
+  <title>VIST TANZANIA — Discover Africa's Crown Jewel</title>
+  <meta name="description" content="Explore Tanzania's majestic mountains, incredible wildlife safaris, pristine waterfalls, historic sites, and breathtaking landscapes. Plan your Tanzanian adventure today." />
+  <meta name="keywords" content="Tanzania tourism, Kilimanjaro, Serengeti, safari, Zanzibar, Ngorongoro, travel Africa" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="navbar">
-      <div class="logo">VIST TANZANIA</div>
-      <ul class="nav-links">
-        <li><a href="#mountains">Mountains</a></li>
-        <li><a href="#valleys">Valleys</a></li>
-        <li><a href="#wildlife">Wildlife</a></li>
-        <li><a href="#rivers">Rivers</a></li>
-        <li><a href="#waterfalls">Waterfalls</a></li>
-        <li><a href="#historical">Historical Sites</a></li>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">🌍</span>
+        <span class="logo-text">VIST <span class="logo-highlight">TANZANIA</span></span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#destinations" class="nav-link">Destinations</a></li>
+        <li><a href="#stats" class="nav-link">Facts</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Plan Your Trip</a></li>
       </ul>
-    </nav>
-    <div class="hero-content">
-      <h1>Explore the Beauty of Tanzania</h1>
-      <p>From soaring peaks to tranquil valleys, discover every wonder.</p>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-  </header>
+  </nav>
 
-  <main id="gallery"></main>
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1621414050946-1b936a78490b?w=1400&q=80')"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1400&q=80')"></div>
+      <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=1400&q=80')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">🌟 Welcome to the Land of Kilimanjaro & Serengeti</p>
+      <h1 class="hero-title">
+        Discover the<br />
+        <span class="hero-gradient">Soul of Africa</span>
+      </h1>
+      <p class="hero-subtitle">From snow-capped peaks to endless savannahs, ancient ruins to turquoise shores — Tanzania awaits your story.</p>
+      <div class="hero-actions">
+        <a href="#destinations" class="btn btn-primary">Explore Destinations</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+      <div class="hero-scroll" id="heroScroll">
+        <span>Scroll to explore</span>
+        <div class="scroll-indicator"></div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">About Tanzania</p>
+        <h2 class="section-title">Africa's Crown Jewel of Natural Wonders</h2>
+        <p class="section-desc">Tanzania is a land of extraordinary diversity — home to Africa's highest mountain, its largest game reserve, and the world's most spectacular wildlife migration. With over 22 national parks, 7 UNESCO World Heritage Sites, and the legendary Spice Island of Zanzibar, it offers experiences found nowhere else on Earth.</p>
+      </div>
+      <div class="about-features">
+        <div class="feature-card" data-animate>
+          <div class="feature-icon">🏔️</div>
+          <h3>Majestic Peaks</h3>
+          <p>Scale Kilimanjaro, Africa's roof, and witness sunrises above the clouds.</p>
+        </div>
+        <div class="feature-card" data-animate>
+          <div class="feature-icon">🦁</div>
+          <h3>Unrivalled Safaris</h3>
+          <p>Witness the Great Migration and encounter the Big Five in their natural habitat.</p>
+        </div>
+        <div class="feature-card" data-animate>
+          <div class="feature-icon">🏖️</div>
+          <h3>Pristine Beaches</h3>
+          <p>Relax on Zanzibar's white-sand beaches surrounded by turquoise Indian Ocean waters.</p>
+        </div>
+        <div class="feature-card" data-animate>
+          <div class="feature-icon">🏛️</div>
+          <h3>Rich Heritage</h3>
+          <p>Explore Stone Town's ancient alleys and the cradle of mankind at Olduvai Gorge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS SECTION ===== -->
+  <section class="stats-section" id="stats">
+    <div class="stats-overlay"></div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item" data-animate>
+          <span class="stat-number" data-count="22">0</span>
+          <span class="stat-label">National Parks</span>
+        </div>
+        <div class="stat-item" data-animate>
+          <span class="stat-number" data-count="7">0</span>
+          <span class="stat-label">UNESCO World Heritage Sites</span>
+        </div>
+        <div class="stat-item" data-animate>
+          <span class="stat-number" data-count="4500" data-suffix="+">0</span>
+          <span class="stat-label">Wildlife Species</span>
+        </div>
+        <div class="stat-item" data-animate>
+          <span class="stat-number" data-count="1500000" data-suffix="+">0</span>
+          <span class="stat-label">Annual Visitors</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DESTINATIONS SECTION ===== -->
+  <section class="destinations" id="destinations">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Explore Tanzania</p>
+        <h2 class="section-title">Unforgettable Destinations</h2>
+        <p class="section-desc">From towering mountains to vast savannahs, cascading waterfalls to ancient heritage sites — discover every wonder Tanzania has to offer.</p>
+      </div>
+
+      <!-- Category Filter -->
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All</button>
+      </div>
+
+      <!-- Destination Cards Container -->
+      <div class="destinations-grid" id="destinationsGrid">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Traveler Stories</p>
+        <h2 class="section-title">What Visitors Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Standing on Kilimanjaro's summit at sunrise was the most profound experience of my life. Tanzania changed me forever."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JM</div>
+            <div><strong>James Mitchell</strong><br /><span>United Kingdom</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The Serengeti migration is beyond words. Millions of animals as far as the eye can see — it's the greatest show on Earth."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SK</div>
+            <div><strong>Sarah Kim</strong><br /><span>South Korea</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-animate>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Zanzibar's Stone Town is pure magic — the food, the culture, the sunsets. We extended our trip twice and still didn't want to leave."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MB</div>
+            <div><strong>Maria Bianchi</strong><br /><span>Italy</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CTA SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <p class="section-tag">Get in Touch</p>
+          <h2 class="section-title">Plan Your Tanzanian Adventure</h2>
+          <p>Ready to experience the wonders of Tanzania? Contact us and let our expert guides create your perfect itinerary.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Arusha, Tanzania</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>info@visttanzania.co.tz</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <span>+255 123 456 789</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="formName" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="formEmail" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <select id="formInterest">
+              <option value="" disabled selected>What interests you?</option>
+              <option value="safari">Wildlife Safari</option>
+              <option value="climbing">Mountain Climbing</option>
+              <option value="beach">Beach & Zanzibar</option>
+              <option value="culture">Culture & History</option>
+              <option value="adventure">Full Adventure Package</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="formMessage" rows="4" placeholder="Tell us about your dream trip..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <p>© 2026 VIST TANZANIA. All rights reserved.</p>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <span class="logo-icon">🌍</span>
+            <span class="logo-text">VIST <span class="logo-highlight">TANZANIA</span></span>
+          </div>
+          <p>Discover Tanzania's breathtaking beauty, from the Serengeti plains to Zanzibar's shores. Your adventure begins here.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#mountains">Mountains</a></li>
+            <li><a href="#wildlife">Wildlife Safaris</a></li>
+            <li><a href="#waterfalls">Waterfalls</a></li>
+            <li><a href="#historical">Historical Sites</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>Subscribe for travel tips and exclusive offers.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email" required />
+            <button type="submit">→</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VIST TANZANIA. All rights reserved. | Designed with ❤️ for Tanzania</p>
+      </div>
+    </div>
   </footer>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="" />
+      <div class="lightbox-info">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+        <span id="lightboxLocation"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
   <script src="app.js"></script>
 </body>
