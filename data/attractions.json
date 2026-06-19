@@ -10,7 +10,7 @@
           "title": "Mount Kilimanjaro",
           "description": "Africa's tallest peak at 5,895m. The snow-capped free-standing volcano is a UNESCO World Heritage Site and the ultimate trekking destination.",
           "location": "Kilimanjaro Region",
-          "image": "https://loremflickr.com/600/400/kilimanjaro?lock=991",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Kilimanjaro_from_Amboseli.jpg/960px-Kilimanjaro_from_Amboseli.jpg",
           "rating": 4.9,
           "bestTime": "January - March, June - October"
         },
@@ -18,7 +18,7 @@
           "title": "Mount Meru",
           "description": "Tanzania's second-highest peak at 4,566m. A stunning volcanic cone offering spectacular views of Kilimanjaro and diverse wildlife encounters.",
           "location": "Arusha National Park",
-          "image": "https://loremflickr.com/600/400/meru?lock=86",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mount_meru_with_snow%2C_Arusha_Region%2C_Tanzania.jpg",
           "rating": 4.7,
           "bestTime": "June - February"
         },
@@ -26,7 +26,7 @@
           "title": "Ol Doinyo Lengai",
           "description": "The sacred 'Mountain of God' to the Maasai people. The only active natrocarbonatite volcano on Earth, rising 2,962m near Lake Natron.",
           "location": "Arusha Region",
-          "image": "https://loremflickr.com/600/400/ol?lock=287",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Lengai_from_Natron.jpg/960px-Lengai_from_Natron.jpg",
           "rating": 4.5,
           "bestTime": "June - October"
         },
@@ -34,7 +34,7 @@
           "title": "Udzungwa Mountains",
           "description": "Biodiversity hotspot with endemic species, lush rainforests, and stunning waterfalls. Known as the 'Galapagos of Africa'.",
           "location": "Morogoro Region",
-          "image": "https://loremflickr.com/600/400/udzungwa?lock=167",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Udzungwa_mountains-1.jpg/960px-Udzungwa_mountains-1.jpg",
           "rating": 4.6,
           "bestTime": "June - November"
         }
@@ -50,7 +50,7 @@
           "title": "Serengeti National Park",
           "description": "Home to the Great Migration — over 1.5 million wildebeest and 250,000 zebra cross the plains annually. Africa's most iconic safari destination.",
           "location": "Mara Region",
-          "image": "https://loremflickr.com/600/400/serengeti?lock=375",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Serengeti-Landscape-2012.JPG/960px-Serengeti-Landscape-2012.JPG",
           "rating": 5,
           "bestTime": "June - October"
         },
@@ -58,7 +58,7 @@
           "title": "Ngorongoro Crater",
           "description": "The world's largest intact volcanic caldera, hosting 25,000+ large animals including the Big Five in a breathtaking natural amphitheatre.",
           "location": "Arusha Region",
-          "image": "https://loremflickr.com/600/400/ngorongoro?lock=575",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ngorongoro-1001-2.jpg/960px-Ngorongoro-1001-2.jpg",
           "rating": 4.9,
           "bestTime": "June - September"
         },
@@ -66,7 +66,7 @@
           "title": "Tarangire National Park",
           "description": "Famous for enormous elephant herds, ancient baobab trees, and over 550 bird species. A hidden gem of the northern safari circuit.",
           "location": "Manyara Region",
-          "image": "https://loremflickr.com/600/400/tarangire?lock=631",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tarangine_%2862%29.jpg/960px-Tarangine_%2862%29.jpg",
           "rating": 4.7,
           "bestTime": "June - October"
         },
@@ -74,7 +74,7 @@
           "title": "Selous Game Reserve",
           "description": "Africa's largest protected wildlife area, offering boat safaris on the Rufiji River and encounters with rare African wild dogs.",
           "location": "Lindi Region",
-          "image": "https://loremflickr.com/600/400/selous?lock=870",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/ElefantenAmRufiji.jpg/960px-ElefantenAmRufiji.jpg",
           "rating": 4.6,
           "bestTime": "July - October"
         }
@@ -90,7 +90,7 @@
           "title": "Great Rift Valley",
           "description": "A geological wonder stretching across Tanzania, featuring dramatic escarpments, alkaline lakes, and breathtaking panoramic vistas.",
           "location": "Northern Tanzania",
-          "image": "https://loremflickr.com/600/400/great?lock=584",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tectonic_African_Arabian_Rift_System.jpg/960px-Tectonic_African_Arabian_Rift_System.jpg",
           "rating": 4.8,
           "bestTime": "Year-round"
         },
@@ -98,7 +98,7 @@
           "title": "Olduvai Gorge",
           "description": "The 'Cradle of Mankind' — one of the world's most important paleoanthropological sites where early human fossils were discovered.",
           "location": "Ngorongoro Conservation Area",
-          "image": "https://loremflickr.com/600/400/olduvai?lock=370",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Oldupai-3.jpg/960px-Oldupai-3.jpg",
           "rating": 4.7,
           "bestTime": "May - November"
         },
@@ -106,7 +106,7 @@
           "title": "Usambara Mountains Valley",
           "description": "Rolling green hills with tea plantations, misty forests, and stunning viewpoints. A paradise for hikers and nature lovers.",
           "location": "Tanga Region",
-          "image": "https://loremflickr.com/600/400/usambara?lock=374",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.5,
           "bestTime": "June - October"
         }
@@ -122,7 +122,7 @@
           "title": "Lake Victoria",
           "description": "Africa's largest lake and the world's second-largest freshwater lake. Rich in fishing culture and home to diverse birdlife.",
           "location": "Mwanza Region",
-          "image": "https://loremflickr.com/600/400/victoria?lock=767",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.6,
           "bestTime": "Year-round"
         },
@@ -130,7 +130,7 @@
           "title": "Lake Tanganyika",
           "description": "The world's second-deepest and longest freshwater lake, hosting over 350 species of fish. Crystal-clear waters perfect for diving.",
           "location": "Kigoma Region",
-          "image": "https://loremflickr.com/600/400/tanganyika?lock=742",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.7,
           "bestTime": "May - October"
         },
@@ -138,7 +138,7 @@
           "title": "Lake Natron",
           "description": "A surreal crimson-colored alkaline lake and the primary breeding ground for millions of lesser flamingos. An otherworldly landscape.",
           "location": "Arusha Region",
-          "image": "https://loremflickr.com/600/400/natron?lock=106",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.5,
           "bestTime": "August - October"
         },
@@ -146,7 +146,7 @@
           "title": "Rufiji River",
           "description": "Tanzania's largest river flowing through the Selous, offering spectacular boat safaris with hippos, crocodiles, and rich birdlife.",
           "location": "Pwani Region",
-          "image": "https://loremflickr.com/600/400/rufiji?lock=311",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.4,
           "bestTime": "June - November"
         }
@@ -162,7 +162,7 @@
           "title": "Kalambo Falls",
           "description": "Africa's second-highest uninterrupted waterfall at 221m, plunging into Lake Tanganyika. An archaeological treasure with Stone Age artefacts.",
           "location": "Rukwa Region",
-          "image": "https://loremflickr.com/600/400/kalambo?lock=133",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.7,
           "bestTime": "March - May"
         },
@@ -170,7 +170,7 @@
           "title": "Materuni Waterfalls",
           "description": "A spectacular 70m cascade nestled in the lush foothills of Kilimanjaro. Swim in the crystal pool and visit Chagga coffee farms.",
           "location": "Kilimanjaro Region",
-          "image": "https://loremflickr.com/600/400/materuni?lock=253",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.6,
           "bestTime": "March - May"
         },
@@ -178,7 +178,7 @@
           "title": "Sanje Waterfalls",
           "description": "A breathtaking 170m waterfall in the Udzungwa Mountains, cascading through pristine rainforest inhabited by rare primates.",
           "location": "Morogoro Region",
-          "image": "https://loremflickr.com/600/400/sanje?lock=977",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.5,
           "bestTime": "April - June"
         }
@@ -194,7 +194,7 @@
           "title": "Stone Town, Zanzibar",
           "description": "A UNESCO World Heritage Site with labyrinthine alleys, ornate carved doors, grand palaces, and a fusion of Arab, Persian, Indian and European influences.",
           "location": "Zanzibar",
-          "image": "https://loremflickr.com/600/400/stone?lock=112",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.8,
           "bestTime": "June - October"
         },
@@ -202,7 +202,7 @@
           "title": "Kilwa Kisiwani Ruins",
           "description": "Once the greatest trading city on the East African coast. The 13th-century ruins include the Great Mosque, one of the earliest in sub-Saharan Africa.",
           "location": "Lindi Region",
-          "image": "https://loremflickr.com/600/400/kilwa?lock=624",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.6,
           "bestTime": "June - October"
         },
@@ -210,7 +210,7 @@
           "title": "Bagamoyo Historic Town",
           "description": "A former slave-trade port and the first capital of German East Africa. Its crumbling colonial buildings and caravan routes tell stories of resilience.",
           "location": "Pwani Region",
-          "image": "https://loremflickr.com/600/400/bagamoyo?lock=16",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.4,
           "bestTime": "June - October"
         },
@@ -218,7 +218,7 @@
           "title": "Kondoa Rock Art Sites",
           "description": "A UNESCO World Heritage collection of over 150 rock shelters with paintings spanning 2,000+ years, depicting hunting scenes, rituals, and daily life.",
           "location": "Dodoma Region",
-          "image": "https://loremflickr.com/600/400/kondoa?lock=527",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg/600px-Serengeti_National_Park%2C_Tanzania_-_Panoramio_%281%29.jpg",
           "rating": 4.5,
           "bestTime": "Year-round"
         }
